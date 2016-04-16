@@ -1,4 +1,7 @@
-
+.row {
+     margin-right: 0px;
+     margin-left: 0px;
+}
 .form-control {
 
     margin-left: 57px;
@@ -14,7 +17,6 @@
 }
 /*changer la position du carrousel*/
 .carousel{
-
     margin-top: 111px;
 
 }
@@ -37,4 +39,27 @@
 .navbar-inverse .navbar-nav>li>a {
     color: #1b6d85;
     background-color: transparent;
+}
+
+.btn-ins {
+    background-color: #1b6d85;
+    color: #fff;
+    /*padding: 10px;*/
+    border-radius: 10px;
+}
+
+.row1{
+    margin-top: 300px;
+}
+.detail{
+
+    margin-right: 199px;
+
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
 }

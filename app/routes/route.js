@@ -19,7 +19,7 @@ app.config(function($stateProvider,$urlRouterProvider){
 
         .state("produit",{
             url:"/produit",
-            templateUrl:"pages/produit.html",
+            templateUrl:"pages/panel.html",
             controller: "produitCtrl"
         })
         //url page article
