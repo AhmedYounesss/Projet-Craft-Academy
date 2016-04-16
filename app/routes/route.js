@@ -23,6 +23,10 @@ app.config(function($stateProvider,$urlRouterProvider){
             url:"/article",
             templateUrl:"pages/article.html",
             controller: "articleCtrl"
-        });
-
+        })
+      .state("contact",{
+        url:"/contact",
+        templateUrl:"pages/contact.html",
+        controller: "contactCtrl"
+    });
 })

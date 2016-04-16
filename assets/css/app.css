@@ -12,3 +12,15 @@
 
     color: #1b6d85;
 }
+
+.carousel{
+
+    margin-top: 111px;
+
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 30%;
+    margin: auto;
+}
