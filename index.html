@@ -1,10 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Project Craft Academy</title>
+
+    <!--librairies css-->
+    <link rel="stylesheet" href="assets/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+
 </head>
 <body>
+
+<div class="container-fluid">
+<!--<div ui-view></div>-->
+    <!--Debut Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+
+        <div class="col-xs-6 col-sm-6 col-md-6 ">
+            <div class="navbar-header" >
+                <a class="navbar-brand" href="#"><strong>E-Commerce</strong></a>
+            </div>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Recherche des articles">
+                </div>
+            </form>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 ">
+            <ul class="nav navbar-nav" >
+                <li><a href="#">Home</a></li>
+                <li><a ui-sref="profil">Catégories</a></li>
+                <li><a ui-sref="profil">Produit</a></li>
+                <li><a ui-sref="profil">Contact</a></li>
+
+            </ul>
+          </div>
+        </div>
+</div>
+        <!--  Fin Navbar -->
+    </nav>
+
+
+
+</div>
+
+
+<!--librairies app-->
+<script src="assets/lib/angular.min.js"></script>
+<script src="assets/lib/angular-ui-router.min.js"></script>
+<script src="assets/lib/ui-bootstrap.js"></script>
+<script src="assets/lib/ui-bootstrap-tpls.js"></script>
+
+<!--fichier de déclaration du module -->
+<script src="app/app.js"></script>
+
+<!--les controlleurs utilisé-->
+<script src="app/controllers/produitCtrl.js"></script>
+<script src="app/controllers/articleCtrl.js"></script>
+<script src="app/controllers/articleCtrl.js"></script>
 
 </body>
 </html>
