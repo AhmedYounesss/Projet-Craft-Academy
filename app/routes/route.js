@@ -5,26 +5,33 @@
 
 //redirection des pages avec ui router
 app.config(function($stateProvider,$urlRouterProvider){
+//configuration de routeProvider
 
     $urlRouterProvider.otherwise("/home");
 
     $stateProvider.state("home",{
-
+//url page home
         url:"/home",
         templateUrl:"pages/home.html",
         controller: "homeCtrl"
     })
+        //url page produit
+
         .state("produit",{
             url:"/produit",
             templateUrl:"pages/produit.html",
             controller: "produitCtrl"
         })
+        //url page article
+
         .state("article",{
             url:"/article",
             templateUrl:"pages/article.html",
             controller: "articleCtrl"
         })
-      .state("contact",{
+        //url fiche contact
+
+        .state("contact",{
         url:"/contact",
         templateUrl:"pages/contact.html",
         controller: "contactCtrl"
